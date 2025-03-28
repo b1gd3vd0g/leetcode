@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/balanced-binary-tree/
+
 const isBalanced = (root) => {
     /** A recursive function to find the height of a balanced tree, or -1 for an unbalanced tree. */
     const treeHeight = (tree) => {
