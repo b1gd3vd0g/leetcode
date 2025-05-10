@@ -9,7 +9,7 @@ const partitionLabels = (s) => {
 
     /** An array of all partition lengths. */
     const partitions = [];
-    /** The interval of this CURRENT partition. */
+    /** The interval [a, b] (inclusive) of this CURRENT partition. */
     const interval = [0, 0];
 
     for (let i = 0; i < s.length; i++) {
